@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Usando Links Externos</h1>  
+<p>Acessar a Letra da música <a href="https://www.letras.mus.br/gloria-groove/camera-frontal-part-ferrugem/">"Câmera Frontal" - Glória Groove</a> <!--não abre em outra aba--> </p>
+<p>Você também pode acessar a <a href="https://www.youtube.com/watch?v=8cWFo8QsVcU" target="_blank" rel="external">música completa no youtube</a>. <!--Abre em outra aba-->
+<p>teste noreferrer
+ <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=28" target="_blank" rel="noopener noreferrer">Visite o Exemplo</a> <!--Este exemplo eu vi no chat gpt, diz que aumenta a segurança do meu site;-->
+<!--acima: Abre em outra aba--> 
+</p>
+</p>
+<h1>Usando Links Internos</h1>
+<ol>
+  <li>Primeiro:</li>  
+    <ul type="square"> 
+<li>Para fazer links internos, primeiro é necessário criar outros links em nossa página;</li> </ul>
+</ol> <!--pag002-->
+
+
+<p>Esta é a  a primeira página, se desejar pode acessar minha  <a href="pag002.html">segunda página</a></p> <!--desse jeito ainda fecha a página anterior, mas e se eu tentar abrir uma aba?-->
+
+<p>
+  
+  <ul type="square"> 
+    <li>A de cima vai pra outra página interna e é sobreposta, entretanto, a de baixo abre uma nova aba para a página interna</li></ul>
+
+</p>
+
+<p>Esta é a  a primeira página, se desejar pode acessar minha  <a href="pag002.html" target="_blank" rel="external">segunda página</a></p>
+<hr>
+
+<p>Esta é a  a primeira página, se desejar pode acessar minha  <a href="pag002.html" target="_self" rel="next">segunda página</a></p>
+<hr>
+<a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">Esta página é um oferecimento Hostnet</a> <!--Com essa tag nofollow vc está dizendo para os mecanismos de busca que não quer que seu site seja interligado ou cnhecido por dar link a essa página-->
+<hr>
+
+Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>
+
+<h1>Links Para Download</h1>
+<ul>
+<li><a href="livro/Opcoes_Trabalho_Home_Office.pdf" download="livro/Opcoes_Trabalho_Home_Office.pdf" type="application/pdf">Baixar livoro em PDF</a></li> <li> <a href="livro/Opcoes_Trabalho_Home_Office.rar">Livro Compactado em ZIP</a></li>
+
+</ul>
+
+
+
+
+</body>
+</html>
