@@ -1,0 +1,9 @@
+O método a seguiir ensina a trabalhar em outras máquinas, usando git  github
+sem deixar rasstros após a utilização; usou, saiu, sumiu:
+
+preccisa:
+
+navegador;
+vs code
+git
+github desktop;
