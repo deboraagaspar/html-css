@@ -1,0 +1,3 @@
+primeiro coluna, depois lnha no background-position;
+
+interessante pra colocar e posicionar o fundo do meu site;
