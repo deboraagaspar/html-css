@@ -1,0 +1,20 @@
+primeiro coluna, depois lnha no background-position;
+
+interessante pra colocar e posicionar o fundo do meu site;
+
+vh (a tela branca)
+
+cover: preenche a tela toda, mesmo sem mostrar toda a imagem;
+
+background-attachment: fixed; (para fixaro background na tela e o que irá se mexer sera somente o resto sem ser o fundo)
+
+shorthand das configs de background:
+
+color > image > position > repeat > [size] > attachment
+
+background: black url () center center no-repeat cover fixed
+
+ou
+
+background: black url () center center no-repeat fixed
+background-size: cover
