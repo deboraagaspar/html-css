@@ -12,9 +12,12 @@ shorthand das configs de background:
 
 color > image > position > repeat > [size] > attachment
 
-background: black url () center center no-repeat cover fixed
+background: black url () center center no-repeat cover fixed;
 
 ou
 
 background: black url () center center no-repeat fixed
-background-size: cover
+background-size: cover;
+
+position do maior relative e do menor absolute;
+
