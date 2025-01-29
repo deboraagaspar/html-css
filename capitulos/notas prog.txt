@@ -23,3 +23,6 @@ position do maior relative e do menor absolute;
 
 left e top
 transform: translate( , )
+
+text-transform: uppercase; em style pra colocar tudo em maiusculo, ou, 
+font-variant: small-caps;
