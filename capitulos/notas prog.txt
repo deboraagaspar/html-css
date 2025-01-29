@@ -21,3 +21,5 @@ background-size: cover;
 
 position do maior relative e do menor absolute;
 
+left e top
+transform: translate( , )
