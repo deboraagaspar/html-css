@@ -51,3 +51,43 @@ ex:         <tr>
 
         text-align: center; /*Alinhamento horizontal */
         vertical-align: top; /*alinhamento vertical */
+
+
+TABELAS GRANDES - O MODO DE FAZER
+
+Anatomia p/ TABELAS GRANDES
+
+
+table	
+	thead
+		tr, td, th
+	tbody
+		tr, td, th
+	tfoot
+CAPTION - legenda da tabela
+
+	tr, td, th
+
+
+scoolp = col ou row
+
+efeito zebrado com pseudo classe: 
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+se ao invés de 2n que seria intercalar a cada 2 como está ali, quiser usar impar, só usar "odd" = 
+impar
+
+even - par e odd - ímpar
+
+ou 2n-1 e 2n 
+
+ex:         tbody > tr:nth-child(odd) {
+            background-color: #9e5bff;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #806aff;
+        }
