@@ -26,3 +26,28 @@ transform: translate( , )
 
 text-transform: uppercase; em style pra colocar tudo em maiusculo, ou, 
 font-variant: small-caps;
+
+Hierarquia de tabelas simples:
+
+- TABLE = tabela 
+            TABLE ROW = linha de tabela
+	TABLE HEADER = CABEÇALHO DE TABELA
+	TABLE DATA = dado de tabela
+ex:         <tr>
+            <!-- tr primeira linha-->
+             <td>A1 <!--dado--> </td>
+        </tr>
+
+       table {
+        width: 300px;
+        border-collapse: collapse;
+        
+       }
+
+       td {
+        border: 1px solid black;
+        padding: 5px;
+       }
+
+        text-align: center; /*Alinhamento horizontal */
+        vertical-align: top; /*alinhamento vertical */
