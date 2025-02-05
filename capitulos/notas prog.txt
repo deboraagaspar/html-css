@@ -91,3 +91,11 @@ ex:         tbody > tr:nth-child(odd) {
         tbody > tr:nth-child(even) {
             background-color: #806aff;
         }
+
+a célula vai ocupar duas coluunas.
+
+<td colspan="2">B</td>
+
+a célula vai ocupar 3 linhas.
+
+  <td rowspan="3">D</td>
