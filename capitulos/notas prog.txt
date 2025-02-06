@@ -127,3 +127,12 @@ style:
 
 COM COL  E SPAN VC EXPANDE A MAIS DE UMA COLUNA AQUELA
 CLASSE;
+
+SE EU INTERCALAR, COLOCANDO A PRIMEIRA E A TERCEIRA, A SEGUNDA E A QUARTA COM OS MESMOS NOMES
+CONSIGO CRIAR COLUNAS ZEBRADAS
+
+ex:
+<col class="amarelo">
+<col class="vermelho">
+<col class="amarelo">
+<col class="vermelho">
