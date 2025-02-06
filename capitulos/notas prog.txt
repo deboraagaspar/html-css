@@ -104,3 +104,26 @@ scoope=" . "
 
 escopo;
 
+ no th que coloca;
+
+colgrup, tag que ajuda a selecionar as colunas facilmente; 
+
+
+ex:
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+style: 
+
+        col.cnome {
+            background-color: aqua;
+        }
+
+<col class="cgrupos" span="3">
+
+COM COL  E SPAN VC EXPANDE A MAIS DE UMA COLUNA AQUELA
+CLASSE;
