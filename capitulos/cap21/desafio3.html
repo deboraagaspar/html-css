@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3 - MC</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+         body {
+            font-family: "Space Grotesk", serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal; 
+         }
+
+         table {
+            border-collapse: collapse;
+            width: 300px;
+         }
+
+         td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+         }
+
+
+    
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" >Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Amabel</td>
+                <td>A Malvada</td>
+                <td>Tempos</td>
+                <td>O Futuro</td>
+            </tr>
+            <tr>
+                <td>Bernadette</td>
+                <td>Harry.P</td>
+                <td>As Panteras</td>
+                <td> Meninas Mal</td>
+            </tr>
+            <tr>
+                <td>Bendita</td>
+                <td>Anéis</td>
+                <td>A.I.</td>
+                <td>Avengers</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Carlos</td>
+                <td>Vingadores</td>
+                <td>Wall-E</td>
+                <td>Carros</td>
+            </tr>
+            <tr>
+                <td>Raul</td>
+                <td>Divergente</td>
+                <td>Ascendente</td>
+                <td>Descendente</td>
+            </tr>
+            <tr>
+                <td>Cézar</td>
+                <td>C.E</td>
+                <td>Miss.S</td>
+                <td>Os 300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

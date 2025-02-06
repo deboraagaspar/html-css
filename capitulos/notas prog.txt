@@ -99,3 +99,8 @@ a célula vai ocupar duas coluunas.
 a célula vai ocupar 3 linhas.
 
   <td rowspan="3">D</td>
+
+scoope=" . "
+
+escopo;
+
