@@ -136,3 +136,15 @@ ex:
 <col class="vermelho">
 <col class="amarelo">
 <col class="vermelho">
+
+TABELAS RESPONSIVAS:
+
+Envelopa toda a tabela com uma div (table a /table) e coloca o id container; depois 
+usa overflow e auto, a tabela vai ficar com rolagem apenas nela e responsiva;
+ex:
+        div#container {
+            overflow-x: auto;
+        }
+
+módulo 4: Cap 22:
+
