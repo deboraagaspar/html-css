@@ -167,3 +167,6 @@ ex:
 
 o tamanho padrão de um iframe é de 300x150px;
 
+scooling="no"
+auto 
+yes
