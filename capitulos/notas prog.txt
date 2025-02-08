@@ -71,6 +71,8 @@ CAPTION - legenda da tabela
 
 scoolp = col ou row
 
+
+
 efeito zebrado com pseudo classe: 
 
         tbody > tr:nth-child(2n) {
@@ -170,3 +172,9 @@ o tamanho padrão de um iframe é de 300x150px;
 scooling="no"
 auto 
 yes
+
+da pra config borda através do css, normal que ja aprendi
+
+
+o objetivo dos iframes para nosso uso é mais em relação a colocarmos o link
+de uma página que seja nossa; não de terceiros que nao autorizam.
