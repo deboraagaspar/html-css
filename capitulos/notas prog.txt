@@ -178,3 +178,12 @@ da pra config borda através do css, normal que ja aprendi
 
 o objetivo dos iframes para nosso uso é mais em relação a colocarmos o link
 de uma página que seja nossa; não de terceiros que nao autorizam.
+
+As variáveis no CSS são definidas dentro do :root, que representa o nível mais alto do documento.
+var variavel
+css
+
+Editar
+:root {
+  --cor-primaria: #3498db;
+  --tamanho-fonte: 16px;
