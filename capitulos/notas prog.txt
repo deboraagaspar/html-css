@@ -187,3 +187,25 @@ Editar
 :root {
   --cor-primaria: #3498db;
   --tamanho-fonte: 16px;
+
+pra fazer a pag abrir no frame é preciso definir um name e depois colocar no target:
+
+ <iframe id="tela" name="frame" 
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+srcdoc;
+
+ex de por img:
+
+    <iframe id="tela" name="frame"  srcdoc=" <h1>
+ Escolha uma das opões acima</h1> <p>Lorem ipsum dolor sit
+ amet consectetur adipisicing elit. Libero repellendus animi commodi d
+olore impedit, est quia voluptatum, velit illo similique quasi minus 
+consequatur molestias suscipit. Obcaecati saepe cu
+m fugit hic!</p><img src='Imagens\boy anime.jpg'> ">Infelizme
+nte seu navegador não é compatível</iframe>
