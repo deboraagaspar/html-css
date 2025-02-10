@@ -209,3 +209,13 @@ olore impedit, est quia voluptatum, velit illo similique quasi minus
 consequatur molestias suscipit. Obcaecati saepe cu
 m fugit hic!</p><img src='Imagens\boy anime.jpg'> ">Infelizme
 nte seu navegador não é compatível</iframe>
+
+proteger de ações suspeitas seu site do iframe:
+
+sandbox="sandbox
+
+  <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer">
+
+o no-referrer impede que peguem dados do meu site;
+
+
