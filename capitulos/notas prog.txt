@@ -222,4 +222,8 @@ sandbox="allow-same-origin" (permitir coisas de mesma origem.
 
 allow-forms allow-scripts" formularios e scripts
 
+CAPÍTULO 23:
+
+		Divulgar redes sociais na página;
+
 
