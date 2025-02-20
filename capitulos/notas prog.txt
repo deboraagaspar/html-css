@@ -243,4 +243,33 @@ ex:
 
 CAP 24: FORMULÁRIOS:
 
+Label / etiquetas;
 
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="name" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+
+deve se relacionar os inputs com os labels;
+
+label;
+qual objeto de formulario e sua etiqueta.
+
+A tag <label> em HTML é usada para associar um rótulo a um elemento de formulário, como <input>, melhorando a acessibilidade e a usabilidade. Ela pode ser vinculada a um campo usando o atributo for, que deve corresponder ao id do elemento associado, ou envolvendo diretamente o <input>. Isso permite que os usuários cliquem no rótulo para ativar o campo correspondente, tornando a interação mais intuitiva. Além disso, seu uso é essencial para leitores de tela, auxiliando na navegação de pessoas com deficiência visual. Exemplo: <label for="nome">Nome:</label> <input type="text" id="nome">.
+
+metodos de envio de formulários:
+
+method="get"  e "post";
+get padrão e post envia de outra maneira, mas dá pra achar os dados em inspecioar.
+
+dados comuns get
+
+senha, etc, dados sensiveis usa post e https aprender;
+
+se quer que a pesquiss possa ser copartilhada, get
+
+só pode usar o get até 3.000 letras / byts;
+
+input password;
