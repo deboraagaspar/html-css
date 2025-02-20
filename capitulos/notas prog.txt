@@ -24,6 +24,8 @@ position do maior relative e do menor absolute;
 left e top
 transform: translate( , )
 
+colocar algo no meio ou posicionado onde deseja
+
 text-transform: uppercase; em style pra colocar tudo em maiusculo, ou, 
 font-variant: small-caps;
 
@@ -224,5 +226,21 @@ allow-forms allow-scripts" formularios e scripts
 CAPÍTULO 23:
 
 		Divulgar redes sociais na página;
+
+
+
+quando passo o mouse em um dos botoes da rede social do site todos se mexem, então vou fazer uma config
+que coloque todos na caixa, algo assim;
+
+esconder rolagem:
+
+ex:
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+CAP 24: FORMULÁRIOS:
 
 
