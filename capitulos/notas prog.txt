@@ -273,3 +273,15 @@ se quer que a pesquiss possa ser copartilhada, get
 só pode usar o get até 3.000 letras / byts;
 
 input password;
+
+required - quando é onbrigatório;
+
+ex de requerid e minlengh:
+
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="16" placeholder="nome de usuário">
+
+placeholder: dica pro usuário (ex acima)
+
+ <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="16" size="8" placeholder="senha" autocomplete="current-password">
+
