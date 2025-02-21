@@ -286,3 +286,14 @@ placeholder: dica pro usuário (ex acima)
             <input type="password" name="sen" id="isen" required minlength="8" maxlength="16" size="8" placeholder="senha" autocomplete="current-password">
 
 step de quanto em quanto;
+
+estudar mais em html: RegEx - expressões regulareas;
+
+PATTER TELEFONE
+
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(XX) XXXXX - XXXX">
+
+ <fieldset>
+            <legend>Dados Pessoais</legend>
+
