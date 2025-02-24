@@ -297,3 +297,20 @@ PATTER TELEFONE
  <fieldset>
             <legend>Dados Pessoais</legend>
 
+Rádio e Checkbox:
+
+no checkbox pra fazer com que ao clicar no nome, como basquete e ao mesmo tempo selecionar, dar check
+deve-se ligar o input/ botao com label, usa-se o id do inpute para tal ação;
+
+ex:
+
+<input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label>
+
+quando se usa rádio, utilizado para marcar apenas uma opção, é
+necessário que se use o mesmo nome (name) para que funcione corretamente;
+
+mesmos nomes, ids diferentes;
+
+se eu desejar que ja apareça uma das opções marcadas, colocar "checked" dentro do input
+exemplos 
+            <input type="radio" name="sexo" id="isf" checked><label for="isf">Feminino</label><br>
