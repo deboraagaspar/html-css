@@ -314,3 +314,10 @@ mesmos nomes, ids diferentes;
 se eu desejar que ja apareça uma das opções marcadas, colocar "checked" dentro do input
 exemplos 
             <input type="radio" name="sexo" id="isf" checked><label for="isf">Feminino</label><br>
+
+inputs: COLOR, RANGE, FILE
+
+quando usar input file usar post e não get, pois o get nao aceita mais de 3000 bytes
+
+NOVOS CONTROLES QUE NÃO USAM TAG INPUT:
+
