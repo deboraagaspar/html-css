@@ -321,3 +321,35 @@ quando usar input file usar post e não get, pois o get nao aceita mais de 3000 
 
 NOVOS CONTROLES QUE NÃO USAM TAG INPUT:
 
+no select dá pra usar label atributo pra agrupar junto com optgroup (o outro é label elemento)
+
+se eu quiser que algum desses como no exemplo estado 
+sejam selecionados, vou dentro da tag e coloco "selected"
+
+também há como deixar assim "--- Escolha ---" e dessa forma a opção fica desmarcada;
+
+
+exemplos:
+
+<option value="">--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ" selected>Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+
+Datalist também é interessante, da pra adcionar escrevendo alem da seleção:
+
+ex:
+
+texarea:
+
+
+
