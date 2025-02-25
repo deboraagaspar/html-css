@@ -364,6 +364,12 @@ texarea:
 
 
 .
+OUTPUT:
+
+mostra o resultado colocado na tag, mas pode ser mudado com JS;
+
+oninput - entrar com dados;
+
 
 
 
