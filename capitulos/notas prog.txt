@@ -348,8 +348,22 @@ exemplos:
 Datalist também é interessante, da pra adcionar escrevendo alem da seleção:
 
 ex:
+            <label for="iprofss">Profissão:</label>
+            <input type="text" name="profss" id="iprofss" list="lstprofss">
+            <datalist id="lstprofss">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+
+            </datalist>
+
+
 
 texarea:
+
+
+.
 
 
 
