@@ -370,6 +370,7 @@ mostra o resultado colocado na tag, mas pode ser mudado com JS;
 
 oninput - entrar com dados;
 
-
+a soma no output não é enviada, logo, o output nao é para enviar dados,
+é para mostrar na tela para o usuário.
 
 
