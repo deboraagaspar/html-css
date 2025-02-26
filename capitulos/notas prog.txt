@@ -379,3 +379,4 @@ Media Queries em CSS:
 
 media=all (tudo)
 media=screen(tela)
+media="print"(mpressão)
