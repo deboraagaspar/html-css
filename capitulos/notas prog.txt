@@ -374,3 +374,5 @@ a soma no output não é enviada, logo, o output nao é para enviar dados,
 é para mostrar na tela para o usuário.
 
 
+CAPÍTULO 25:
+Media Queries em CSS:
