@@ -376,3 +376,6 @@ a soma no output não é enviada, logo, o output nao é para enviar dados,
 
 CAPÍTULO 25:
 Media Queries em CSS:
+
+media=all (tudo)
+media=screen(tela)
