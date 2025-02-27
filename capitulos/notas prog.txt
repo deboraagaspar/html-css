@@ -400,4 +400,19 @@ Media Features com CSS:
 
 Media Queries =  media types + Media Features;
 
+media features geralmente são colocadas entre (parenteses) isoladamente,
+ou seja, uma em cada parenteses;
+
+quando uso media, posso informar types e Features;
+
+portrait para modo retrato (cel em pé)
+landscape para modo paisagem (cel deitado)
+
+ex:
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
+o all é para configs de estilo que tem em todos;
 
