@@ -380,3 +380,24 @@ Media Queries em CSS:
 media=all (tudo)
 media=screen(tela)
 media="print"(mpressão)
+
+display: none; para impressoras; faz com que desapareça o menu ou o que desejar
+da impressão;
+
+interessante: article::after
+
+subclasse, da pra colocar algo depois de article ou do conteúdo;
+
+Media Queries são os diferentes estilos, para tela, para impressão;
+
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estlos/impressora.css" media="print">
+essas usadas foram as media types; 
+
+Media Features com CSS:
+
+- ajudam as medias queries a ficarem completinhas;
+
+Media Queries =  media types + Media Features;
+
+
