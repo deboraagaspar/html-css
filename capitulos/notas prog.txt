@@ -416,5 +416,52 @@ ex:
 
 o all é para configs de estilo que tem em todos;
 
-.
+como configurar no arquivo html o media query pra projetos pequenos:
+ex:
+
+  <style>
+     /* declarações gerais*/
+     * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #1526a7;
+    padding: 10px;
+}
+
+      /* declaração retrato */
+      @media screen and (orientation: portrait) {
+        
+      }
+
+       /* declaração paisagem*/
+       @media screen and (orientation: landscape) {
+        
+       }
+
+    </style>
+
+fica assim com o codigo:
+
+      /* declaração retrato */
+      @media screen and (orientation: portrait) {
+        body {
+            background-image: url(../imgs/cev-portrait.jpg);
+            background-position: center bottom;
+}    
+      }
+
+também posso fazer do mesmo jeito, as copiar e colar num arquivo css
 
