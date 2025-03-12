@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="estilos/tudo.css" media="all">
 </head>
 <body>
     <header>
@@ -15,7 +16,62 @@
         <a href="#">Favoritos</a>
         <a href="#">Avalie</a>
     </nav>
-
     </header>
+    <main>
+        <article>
+            <h2>Catálogo</h2>
+           <!--tabela estilizada de livros disponiveis-->
+           <table>
+            <thead>
+                <th>Título</th>
+                <th>Autores</th>
+                <th>Disponível</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Como eu era antes de você</td>
+                    <td>Jojo Moyes</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Orgulho e Preconceito</td>
+                    <td>Jane Austen</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Harry Potter e a Pedra Filosofal</td>
+                    <td>J.K. Rowling</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>O Senhor dos Anéis </td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Esgotado</td>
+                </tr>
+                <tr>
+                    <td>As Crônicas de Nárnia</td>
+                    <td>C.S. Lewis</td>
+                    <td>Sim</td>
+                </tr>
+            </tbody>
+           </table> 
+        </article>
+        <article>
+            <h2>Sugestão de Livros</h2>
+            <!-- formulário de sugestão de livros com campos obrigatórios (required)-->
+
+            <form action="sugli.php" method="get" autocomplete="on">
+                <p>
+                    <label for="isug">Sugira livros:</label>
+                    <input type="text" name="sug" id="isug">
+                </p>
+                <p>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </p>
+
+            </form>
+        </article>
+    </main>
 </body>
 </html>
